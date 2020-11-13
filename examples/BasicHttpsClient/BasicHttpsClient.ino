@@ -45,7 +45,7 @@ void setup() {
   Serial.println();
 
   WiFi.mode(WIFI_STA);
-  WiFi.begin("STU-EE", "stu-ee-2022");
+  WiFi.begin("yourNetwork", "youPassword");
 
   // wait for WiFi connection
   Serial.print("Waiting for WiFi to connect...");
